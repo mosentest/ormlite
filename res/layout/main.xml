@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="请输入帐号"
+              android:id="@+id/main_et_username"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="请输入密码"
+              android:id="@+id/main_et_password"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_btn_submit"
+            android:text="保存"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
